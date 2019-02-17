@@ -8,9 +8,11 @@ public class LoginPage {
 
 	WebDriver driver;
 
+	//Comentário
 	public LoginPage(WebDriver ldriver) {
 
 		this.driver = ldriver;
+		
 
 	}
 
