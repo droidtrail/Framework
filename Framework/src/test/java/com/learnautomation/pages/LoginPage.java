@@ -10,10 +10,8 @@ public class LoginPage {
 
 	//Comentário
 	public LoginPage(WebDriver ldriver) {
-
-		this.driver = ldriver;
 		
-
+		this.driver = ldriver;
 	}
 
 	@FindBy(name = "username") WebElement uname;
@@ -27,5 +25,4 @@ public class LoginPage {
 		pass.sendKeys(passwordApplication);
 		loginButton.click();
 	}
-
 }
